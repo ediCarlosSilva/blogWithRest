@@ -1,0 +1,36 @@
+.cabecalho {
+    width: 100%;
+    background-color: #e5e6eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.cabecalho__logo {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cabecalho__navegacao {
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.cabecalho__link {
+    display: inline-block;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.cabecalho__link a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
