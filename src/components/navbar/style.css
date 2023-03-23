@@ -13,9 +13,7 @@
 .cabecalho__logo {
     font-weight: 700;
     font-size: 3rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin: 2rem;
 }
 
 .cabecalho__navegacao {

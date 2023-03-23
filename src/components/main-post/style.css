@@ -1,0 +1,26 @@
+.main__post {
+
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.main__post--imagem {
+    margin-right: 1rem;
+}
+
+.main__post--imagem img {
+    width: 45vw;
+    border-radius: 10px;
+}
+
+.main__post--titulo {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main__post--descricao {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}

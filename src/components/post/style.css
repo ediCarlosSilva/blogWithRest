@@ -1,0 +1,30 @@
+.post {
+    width: 30%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.post--imagem {
+    margin-right: 1rem;
+}
+
+.post--imagem img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post--titulo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+}
+
+.post--descricao {
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
