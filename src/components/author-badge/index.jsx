@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import profileImage from '../../assets/images/profile1.png';
 import './style.css';
 
-export default function AuthorBadge() {
+export default function AuthorBadge({author, idAuthor}) {
     return (
         <div className="author__badge--container">
             <Link to="#">

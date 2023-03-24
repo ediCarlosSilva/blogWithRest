@@ -19,7 +19,7 @@ export default function Post({ post }) {
 
     return (
 
-        <section className="post">
+        <section className="post" data-id={post.id}>
             <div className='post--imagem'>
                 <img src={escolheImagem()} alt="Imagem de uma paisagem bonita." />
             </div>
@@ -30,7 +30,7 @@ export default function Post({ post }) {
 
                 <p className='post--descricao'>{post.body}</p>
 
-                <AuthorBadge />
+                <AuthorBadge author={post.userId}/>
             </div>
         </section>
     )

@@ -7,7 +7,7 @@ export default function PostList({ posts }) {
     return (
         <div className='post__list--container'>
             {
-                posts && posts.map(post => {
+                posts && posts.filter(post => post.id !== 1).map(post => {
                     return <Post post={post} />;
                 })
             }
