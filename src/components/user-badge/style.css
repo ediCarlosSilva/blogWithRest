@@ -1,10 +1,10 @@
-.author__badge--container {
+.user__badge--container {
     display: flex;
     margin-top: 10px;
     align-items: center;
 }
 
-.author__badge--container img {
+.user__badge--container img {
     width: 70px;
     height: 70px;
     object-fit: cover;
@@ -12,10 +12,10 @@
     margin-right: 15px;
 }
 
-.author__badge--container div {
+.user__badge--container div {
     /* display: flex; */
 }
 
-.author__badge--nome {
+.user__badge--nome {
     margin-bottom: .5rem;
 }

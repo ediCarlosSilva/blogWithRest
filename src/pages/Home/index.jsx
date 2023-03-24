@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 import MainPost from '../../components/main-post';
 import PostList from '../../components/post-list';
@@ -35,26 +35,35 @@ export default function Home() {
 
         const dados = await response.json();
 
-        // console.log(dados);
-
         setPosts(dados);
-        
     }
 
+    const [users, setUsers] = useState();
+    
+    async function getUsers() {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users');
+        
+        const users = await response.json();
+        
+        setUsers(users);
+    }
+    
     useEffect(() => {
         getPosts();
+        getUsers();
     }, [])
+    
 
-
+    // const user = users.find(user => user.id === posts[0].userId);
 
     return (
         <>
             <main>
                 {
-                    posts && posts.length > 0 && <MainPost post={posts[0]} />
+                    posts && posts.length > 0 && <MainPost post={posts[0]} users={users}/>
                 }
-                
-                <PostList posts={ posts } />
+
+                <PostList posts={posts} users={users} />
             </main>
         </>
     )
