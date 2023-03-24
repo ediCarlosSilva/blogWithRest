@@ -7,12 +7,9 @@
     margin-bottom: 1.5rem;
 }
 
-.post--imagem {
-    margin-right: 1rem;
-}
-
 .post--imagem img {
     width: 100%;
+    height: 200px;
     border-radius: 10px;
 }
 
