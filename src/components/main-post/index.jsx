@@ -20,10 +20,11 @@ export default function MainPost({ post, users }) {
 
     return (
         <section className="main__post" data-postid={post.id}>
+            <Link to="/post">
             <div className='main__post--imagem'>
                 <img src={escolheImagem()} alt="Imagem de uma paisagem bonita." />
             </div>
-
+            </Link>
             <div className="main__post--conteudo">
 
                 <h2 className='main__post--titulo'>{post?.title}</h2>
