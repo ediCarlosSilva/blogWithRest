@@ -17,3 +17,10 @@ main {
         font-weight: bold;
     }
 }
+
+@media screen and (max-wid: 768px) {
+    main {
+        width: 100%;
+    }
+
+}

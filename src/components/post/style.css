@@ -31,3 +31,21 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .post {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .post--imagem {
+        width: 322px;
+        height: 200px;
+        margin-right: 1rem;
+    }
+
+    .post--descricao {
+        margin-bottom: 0;
+    }
+}

@@ -25,3 +25,14 @@ main {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .escritores__titulo {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .escritores__box {
+        width: 45%;
+    }
+}

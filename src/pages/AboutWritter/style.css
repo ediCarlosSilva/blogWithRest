@@ -84,3 +84,22 @@
         margin-top: 1rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .escritor__sobre {
+        font-size: 2rem;
+    }
+
+    .escritor__destaque {
+        margin-left: 0;
+    }
+
+    .escritor__destaque--name {
+        font-size: 2rem;
+    }
+
+    .escritor__destaque--boxImagem {
+        text-align: center;
+        margin-top: 1rem;
+    }
+}

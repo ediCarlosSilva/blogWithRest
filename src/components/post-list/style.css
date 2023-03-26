@@ -8,3 +8,9 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .post__list--container {
+        flex-direction: column;
+    }
+}

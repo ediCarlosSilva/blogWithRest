@@ -48,3 +48,26 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .main__post {
+        align-items: center;
+    }
+    
+    .main__post--imagem {
+        text-align: center;
+    }
+
+    .main__post--imagem img {
+        height: 230px;
+    }
+
+    .main__post--titulo {
+        font-size: 1.5rem;
+    }
+
+    .main__post--descricao {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+}
