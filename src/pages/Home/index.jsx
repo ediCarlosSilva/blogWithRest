@@ -39,28 +39,27 @@ export default function Home() {
     }
 
     const [users, setUsers] = useState();
-    
+
     async function getUsers() {
         const response = await fetch('https://jsonplaceholder.typicode.com/users');
-        
+
         const users = await response.json();
-        
+
         setUsers(users);
     }
-    
+
     useEffect(() => {
         getPosts();
         getUsers();
     }, [])
-    
-
-    // const user = users.find(user => user.id === posts[0].userId);
 
     return (
         <>
             <main>
                 {
-                    posts && posts.length > 0 && <MainPost post={posts[0]} users={users}/>
+
+                    posts && users && posts.length > 0 && <MainPost post={posts[0]} 
+                    user={users.find(user => user.id === posts[0].userId)} />
                 }
 
                 <PostList posts={posts} users={users} />
