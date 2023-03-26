@@ -25,3 +25,9 @@
     text-align: justify;
     margin-bottom: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+    .post {
+        width: 100%;
+    }
+}

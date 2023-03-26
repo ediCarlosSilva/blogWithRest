@@ -4,21 +4,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
-.cabecalho.container {
-    width: 80%;
-    margin: 0 auto;
-}
 .cabecalho__logo {
     font-weight: 700;
     font-size: 3rem;
     margin: 2rem;
+    padding-left: 5rem;
 }
 
 .cabecalho__navegacao {
     text-align: center;
-    margin-right: 2rem;
+    margin-right: 10rem;
 }
 
 .cabecalho__link {
@@ -29,6 +29,24 @@
 }
 
 .cabecalho__link a:hover {
-    color: #C78C19;
+    color: #c10f50;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho__logo {
+        font-weight: 400;
+        padding-left: 0;
+        margin: 1rem;
+    }
+
+    .cabecalho__navegacao {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        margin-right: 0;
+    }
 }

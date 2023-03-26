@@ -10,3 +10,10 @@ main {
     text-align: center;
     color: #5a5854;
 }
+
+@media screen and (max-width: 480px) {
+    .comentarios__titulo { 
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+}

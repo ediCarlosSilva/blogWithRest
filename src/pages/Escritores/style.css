@@ -19,3 +19,9 @@ main {
     width: 30%;
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 480px) {
+    .escritores__conteudo {
+        flex-direction: column;
+    }
+}

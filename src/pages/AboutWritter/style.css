@@ -50,3 +50,37 @@
 .escritor__perfil div {
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+    .escritor__sobre {
+        padding-left: 1rem;
+        font-size: 2rem;
+    }
+
+    .escritor__detalhes {
+        flex-direction: column;
+    }
+
+    .escritor__destaque {
+        margin-left: 0;
+    }
+
+    .escritor__destaque--name {
+        font-size: 1.5rem;
+    }
+
+    .escritor__destaque--boxImagem {
+        text-align: left;
+        margin-top: .5rem;
+        float: left;
+        margin-right: 2rem;
+    }
+
+    .escritor__destaque :nth-child(3) {
+        margin-top: 1rem;
+    }
+
+    .escritor__perfil {
+        margin-top: 1rem;
+    }
+}

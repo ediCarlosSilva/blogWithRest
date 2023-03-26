@@ -1,5 +1,10 @@
 body {
     background-color: #e5e6eb;
     font-family: 'Roboto', sans-serif;
-    padding: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0;
+    }
 }

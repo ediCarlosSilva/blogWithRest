@@ -5,7 +5,7 @@ import './style.css';
 
 export default function Navbar() {
     return (
-        <header className='cabecalho container'>
+        <header className="cabecalho">
             <Link to="/"><h1 className="cabecalho__logo">Blog</h1></Link>
             <nav className="cabecalho__navegacao">
                 <ul>

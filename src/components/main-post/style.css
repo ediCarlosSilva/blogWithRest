@@ -25,3 +25,26 @@
     text-align: justify;
     margin-bottom: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+    .main__post {
+        flex-direction: column;
+    }
+
+    .main__post--imagem {
+        margin-right: 0;
+    }
+
+    .main__post--imagem img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .main__post--titulo {
+        font-size: 1.3rem;
+    }
+
+    .main__post--descricao {
+        font-size: 1rem;
+    }
+}

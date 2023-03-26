@@ -2,3 +2,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 480px) {
+    .post_list--container {
+        flex-direction: column;
+    }
+}
