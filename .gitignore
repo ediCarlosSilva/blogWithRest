@@ -22,4 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# pasta com imagem de protótipos, pdf e links informados no sprint
 sprint/*

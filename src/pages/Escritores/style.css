@@ -1,0 +1,21 @@
+main {
+    margin: 0 auto;
+}
+
+.escritores__titulo {
+    font-size: 2rem;
+    text-align: center;
+    color: #5a5854;
+}
+
+.escritores__conteudo {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.escritores__box {
+    width: 30%;
+    margin-bottom: 1rem;
+}

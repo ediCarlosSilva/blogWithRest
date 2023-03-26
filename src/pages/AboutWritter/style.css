@@ -1,0 +1,52 @@
+.escritor__sobre {
+    padding-left: 6rem;
+    font-size: 3rem;
+    color: #a29f9a;
+}
+
+.escritor__detalhes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.escritor__destaque {
+    margin-left: 3rem;
+}
+
+.escritor__destaque p {
+    margin-top: .5rem;
+}
+
+.escritor__destaque--name {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.escritor__destaque--boxImagem {
+    text-align: right;
+    margin-top: 2rem;
+}
+
+.escritor__destaque--imagem {
+    width: 20vw;
+    height: 20vw;
+}
+
+
+.escritor__perfil--frase {
+    margin-top: .5rem;
+    color: #a29f9a;
+    font-size: 1.5rem;
+}
+
+
+.escritor__perfil--website {
+    margin-top: .5rem;
+    color: #a29f9a;
+    font-size: 1.5rem;
+}
+
+.escritor__perfil div {
+    margin-top: 2rem;
+}

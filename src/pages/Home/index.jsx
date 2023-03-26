@@ -54,7 +54,6 @@ export default function Home() {
     }, [])
 
     return (
-        <>
             <main>
                 {
 
@@ -64,6 +63,5 @@ export default function Home() {
 
                 <PostList posts={posts} users={users} />
             </main>
-        </>
     )
 }

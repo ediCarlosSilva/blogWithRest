@@ -1,8 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from '../pages/Home';
-import Navbar from '../components/navbar'
+import Navbar from '../components/navbar';
 import Comments from '../pages/Comments';
+import AboutWritter from '../pages/AboutWritter';
+import Escritores from '../pages/Escritores';
 
 export default function ApplicationRoutes() {
     return (
@@ -10,8 +12,9 @@ export default function ApplicationRoutes() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/escritores" element={<Escritores />} />
                 <Route path="/comments/:postId?/:userId?" element={<Comments />} />
-                <Route path="/sobre" element={<h1>Sobre</h1>} />
+                <Route path="/aboutWritter" element={<AboutWritter />} />
             </Routes>
         </BrowserRouter>
     )

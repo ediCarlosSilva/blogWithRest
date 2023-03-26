@@ -11,7 +11,7 @@ export default function UserBadge({ userId, user }) {
 
     // console.log(user);
     return (
-        <Link to="/sobre">
+        <Link to="/aboutWritter" state={{aboutUser: user}}>
             <div className="user__badge--container" data-userid={userId}>
 
                 <img src={profileImage} alt="User do post" />

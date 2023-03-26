@@ -10,7 +10,7 @@ export default function Navbar() {
             <nav className="cabecalho__navegacao">
                 <ul>
                     <li className="cabecalho__link"><Link to="/">Home</Link></li>
-                    <li className="cabecalho__link"><Link to="/sobre">Sobre</Link></li>
+                    <li className="cabecalho__link"><Link to="/escritores">Escritores</Link></li>
                 </ul>
             </nav>
         </header>
