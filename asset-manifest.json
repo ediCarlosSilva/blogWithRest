@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/blogWithRest/static/css/main.2a20013e.css",
-    "main.js": "/blogWithRest/static/js/main.29f1f3bb.js",
-    "static/media/landscape6.jpg": "/blogWithRest/static/media/landscape6.0c4a60404316241f6678.jpg",
-    "static/media/landscape9.jpg": "/blogWithRest/static/media/landscape9.735cd247b5ba5c197ced.jpg",
-    "static/media/landscape5.jpg": "/blogWithRest/static/media/landscape5.7fde1376de4189539fe4.jpg",
-    "static/media/landscape3.jpg": "/blogWithRest/static/media/landscape3.f4e7a02724d65295d5c9.jpg",
-    "static/media/landscape7.jpg": "/blogWithRest/static/media/landscape7.0a055739e996916ebd0f.jpg",
+    "main.js": "/blogWithRest/static/js/main.f30b3095.js",
     "static/media/landscape0.jpg": "/blogWithRest/static/media/landscape0.7baa70b28fc724dc3314.jpg",
+    "static/media/landscape9.jpg": "/blogWithRest/static/media/landscape9.8df62eb55ccd93bd72b2.jpg",
     "static/media/landscape4.jpg": "/blogWithRest/static/media/landscape4.622fcdf62faf37cba450.jpg",
-    "static/media/landscape8.jpg": "/blogWithRest/static/media/landscape8.7615479d810e07818d5c.jpg",
+    "static/media/landscape3.jpg": "/blogWithRest/static/media/landscape3.ffd0c3d71630f31a08ad.jpg",
+    "static/media/landscape5.jpg": "/blogWithRest/static/media/landscape5.be967171932da5aa6ffa.jpg",
+    "static/media/landscape6.jpg": "/blogWithRest/static/media/landscape6.a6345c4ecbbbdd163280.jpg",
+    "static/media/landscape7.jpg": "/blogWithRest/static/media/landscape7.95ce016136303f5745fe.jpg",
     "static/media/landscape1.jpg": "/blogWithRest/static/media/landscape1.b9a4366fa533fd11cb1f.jpg",
+    "static/media/landscape8.jpg": "/blogWithRest/static/media/landscape8.b5f7f01b2aee422ae1a9.jpg",
     "static/media/profile1.png": "/blogWithRest/static/media/profile1.5faf09a7795d28bf5a2b.png",
     "static/media/landscape2.jpg": "/blogWithRest/static/media/landscape2.54141b35c866e16785cc.jpg",
     "index.html": "/blogWithRest/index.html",
     "main.2a20013e.css.map": "/blogWithRest/static/css/main.2a20013e.css.map",
-    "main.29f1f3bb.js.map": "/blogWithRest/static/js/main.29f1f3bb.js.map"
+    "main.f30b3095.js.map": "/blogWithRest/static/js/main.f30b3095.js.map"
   },
   "entrypoints": [
     "static/css/main.2a20013e.css",
-    "static/js/main.29f1f3bb.js"
+    "static/js/main.f30b3095.js"
   ]
 }
