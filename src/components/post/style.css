@@ -26,12 +26,6 @@
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 480px) {
-    .post {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .post {
         width: 100%;
@@ -47,5 +41,13 @@
 
     .post--descricao {
         margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .post {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 2.5rem;
     }
 }
