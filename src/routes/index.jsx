@@ -8,7 +8,8 @@ import Escritores from '../pages/Escritores';
 
 export default function ApplicationRoutes() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        // basename={process.env.PUBLIC_URL}
+        <BrowserRouter>
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
