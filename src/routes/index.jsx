@@ -8,8 +8,9 @@ import Escritores from '../pages/Escritores';
 
 export default function ApplicationRoutes() {
     return (
+        // utilizado basename para publicar no github pages
         // basename={process.env.PUBLIC_URL}
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
