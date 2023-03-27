@@ -4,5 +4,9 @@
 https://edicarlossilva.github.io/blogWithRest/
 
 ### Link da aplicação local pelo comando: npm start
-### Na pasta do projeto
 http://localhost:3000/blogWithRest
+
+### Obs: Rodar o comando ```npm start``` na pasta raiz do projeto
+
+
+
