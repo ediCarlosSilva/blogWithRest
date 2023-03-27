@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import UserBadge from '../user-badge';
 import GetImagem from '../../service/imagem-service';

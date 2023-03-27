@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import UserBadge from '../../components/user-badge';
 import profileImage from '../../assets/images/profile1.png'
 
 import './style.css';
